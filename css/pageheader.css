@@ -11,7 +11,7 @@
 }
 
 .logo {
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -20,15 +20,9 @@
 }
 
 .logo img {
-    width: 50px; /* Set the desired width */
+    width: 60px; /* Set the desired width */
     height: auto; /* Maintain aspect ratio */
     margin-right: 10px;
     align-items: center;
 }
 
-@media screen and (max-width: 480px) {
-    .logo {
-        flex-direction: column; /* Stack logo and text vertically on small screens */
-        align-items: flex-start; /* Align content to the left */
-    }
-}
