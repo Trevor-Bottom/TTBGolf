@@ -1,0 +1,25 @@
+.page-header {
+    background-color: #2C5916; /* Dark background for the header */
+    color: white;
+    padding: 10px 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.page-header h1 {
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}

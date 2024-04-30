@@ -4,11 +4,30 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>TTB Golf</title>
-        <link rel="stylesheet" type="text/css" href="./css/navbar.css">
+        <link rel="stylesheet" href="./css/navbar.css">
+        <link rel="stylesheet" href="./css/pageheader.css">
+        <link rel="stylesheet" href="./css/indeximage.css">
+        <link rel="stylesheet" href="./css/photogallery.css">
         <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
         <link rel="manifest" href="favicon_io/site.webmanifest">
+        <meta name="description" content="A brief description of your portfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Twitter meta tags -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@your-twitter-handle">
+        <meta name="twitter:title" content="Your Portfolio Page Title">
+        <meta name="twitter:description" content="A brief description of your portfolio">
+        <meta name="twitter:image" content="https://your-domain.com/path-to-image.png">
+        
+        <!-- Open Graph meta tags -->
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Your Portfolio Page Title">
+        <meta property="og:description" content="A brief description of your portfolio">
+        <meta property="og:image" content="https://your-domain.com/path-to-image.png">
+        <meta property="og:url" content="https://your-domain.com">
     </head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-GFT9RYQV0Y"></script>
@@ -21,9 +40,9 @@
     <!-- Google tag (gtag.js) -->
 
     <body>
-        <header id="header">
+        <header class="page-header">
             <h1>TTB Golf</h1>
-            <h2>My Personal Website</h2>
+            <h2>My Personal Golf Website</h2>
         </header>
             <nav>
                 <div class="navbar">
@@ -31,7 +50,7 @@
                     <a href="golfcourses.html">My Course Rankings</a>
                     <a href="Inthebag.html">Shot Data</a>
                     <div class="dropdown">
-                      <button class="dropbtn">Socal Links
+                      <button class="dropbtn">Socail Links
                         <i class="fa fa-caret-down"></i>
                       </button>
                       <div class="dropdown-content">
@@ -43,24 +62,32 @@
                   </div>
             </nav>
                 <main>
-                    <div> 
+                    <div class="image-section"> 
                         <section>   
                             <h2>About Me:</h2>
-                            <p>I was born in St. Louis, Missouri, and lived in University City for the first 18 months of my life. Then, I moved to the other side of the Mississippi River and spent the next couple of years in Glen Carbon, Illinois, before moving to Newtown, Connecticut. We lived there for almost six years before moving back to Illinois in 2011. Since fifth grade, I have lived in Wheaton, Illinois, where I graduated from Wheaton Warrenville South High School in 2019. I am the oldest of three siblings; I have two younger sisters, Corrin (currently a senior at Illinois State University) and Glenna (finishing up her senior year at Wheaton Warrenville South and will be heading to Boston University this fall). Some of my favorite activities include attending live sporting events, golfing, skydiving and hanging out with friends. I am an avid media consumer, enjoying movies, TV shows, YouTube channels, and more.</p>
-                            <p>I am currently a senior at the University of Iowa, studying business analytics and information systems. After my freshman year at the University of Kansas, I transferred to Iowa due to Covid, and I truly believe that was the best decision I've ever made. I'll be graduating this spring and plan on starting my role as a business applications consultant in downtown Chicago in late July.</p>
+                            <p>...</p>
                         </section>
-                        <section>
-                            <figure class="photo">
-                                <img src="./Photos/Golfingwithfriends.png" alt="Photo of me and my hometown friends golfig at Arrowhead Golf Course in Wheaton, IL"
-                                height="350"
-                                >
-                            </figure>
-                            <h6 class="caption"> From left to right: Noah, Jeffery, Jack, Tyler, Myself and Cam</h6>
-                        </section>
-                        <section>
-                            <h2>My Summer 2024 Plans</h2>
-                            <p>Before joining the "real world," my goals for the summer are to spend as much time as possible at the lake and to see how close I can get to shooting even par out on the golf course.</p>
-                        </section>
+                    </div>
+                    <div class="gallery">
+                        <div class="img-box">
+                            <img src="./Photos/Golfingwithfriends.png" alt="From left to right: Noah, Jeffery, Jack, Tyler, Myself and Cam">
+                        </div>
+                        <div class="img-box">
+                            <img src="./Photos/Bluetopridge.png" alt="Bluetopridge GC in Riverside, IA">
+                        </div>
+                        <div class="img-box">
+                            <img src="./Photos/Phideltouting.png" alt="Brown Deer Golf Club 18th Green">
+                        </div>
+                        <div class="img-box">
+                            <img src="./Photos/dadandme.png" alt="Golfing with my dad">
+                        </div>
+                        <div class="img-box">
+                            <img src="./Photos/AmanaGC.png" alt="AmanaGC">
+                        </div>
+                        <div class="img-box">
+                            <img src="./Photos/Fathersonouting.png" alt="villagelinksgolf">
+                        </div>
+                        <!-- Add more images as needed -->
                     </div>
                 </main>
         <footer>

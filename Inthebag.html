@@ -5,23 +5,41 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>TTB Golf</title>
         <link rel="stylesheet" type="text/css" href="./css/navbar.css">
+        <link rel="stylesheet" type="text/css" href="./css/tables.css">
+        <link rel="stylesheet" type="text/css" href="./css/pageheader.css">
         <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
         <link rel="manifest" href="favicon_io/site.webmanifest">
+        <meta name="description" content="A brief description of your portfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Twitter meta tags -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@Trevor_Bottom">
+        <meta name="twitter:title" content="TTB Golf: My Ultimate Golf Resource">
+        <meta name="twitter:description" content="Personal Course Rankings,Current Shot Data Analysis and Product Recomendations">
+        <meta name="twitter:image" content="https://ttbgolf.com/./images/OpenGraph.png">
+        
+        <!-- Open Graph meta tags -->
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="TTB Golf: My Ultimate Golf Resource">
+        <meta property="og:description" content="Personal Course Rankings,Current Shot Data Analysis and Product Recomendations">
+        <meta property="og:image" content="https://ttbgolf.com/./images/OpenGraph.png">
+        <meta property="og:url" content="https://ttbgolf.com">      
     </head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GFT9RYQV0Y"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-GFT9RYQV0Y');
-    </script>
-    <!-- Google tag (gtag.js) -->
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-GFT9RYQV0Y"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-GFT9RYQV0Y');
+        </script>
+        <!-- Google tag (gtag.js) -->
     
     <body>
-        <header id="header">
+        <header class="page-header">
             <h1>TTB Golf</h1>
             <h2>My Personal Website</h2>
         </header>
@@ -43,8 +61,9 @@
             </div>
         </nav>
         <main>
-            <H2>Data is coming from Arcoss Sensors</H2>
-            <h3>361 Shots in 8 Rounds (Updated: 4/29/24) </h3>
+        <div class="table-container">
+        <h1>Data is coming from Arcoss Sensors</h1>
+        <h3>361 Shots in 8 Rounds (Updated: 4/29/24) </h3>
             <table>
                 <tr>
                     <th>Club Type</th>
@@ -144,7 +163,7 @@
                 </tr>
                 <tr>
                     <td>60 Degree</td>
-                    <td>Titleist Vokey Spin Milled Tour Chrome '09</td>
+                    <td>Titleist Vokey Spin Milled Tour Chrome</td>
                     <td>85</td>
                     <td>64 - 87</td>
                     <td>94</td>
@@ -158,7 +177,8 @@
                     <td>N/A</td>
                     <td>...</td> <!-- Add relevant data here -->
                 </tr>
-            </table>
+        </table>
+        </div>
         </main>
         <footer>
             <!-- Add footer content, copyright info, etc. -->

@@ -1,0 +1,19 @@
+.image-section {
+    background-image: url('IMG_2477.jpeg'); /* Replace 'your-image.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px; /* Adjust height as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Ensure text color contrasts well with the background image */
+    text-align: center; /* Center the text horizontally */
+}
+
+h1, p {
+    background: rgba(0, 0, 0, 0.5); /* Optional: dark semi-transparent background for better text readability */
+    padding: 10px; /* Padding around text */
+    border-radius: 8px; /* Optional: rounded corners for text background */
+}

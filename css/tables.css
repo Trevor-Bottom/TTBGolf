@@ -1,7 +1,48 @@
-.table {
-    border: 20px;
-    font-size: 12px;
-    background-color: #1fd655;
-    width: fit-content;
+.table-container {
+    width: 90%; /* Adjust based on your layout needs */
+    margin: 0 auto; /* Centers the container */
+}
+.table-container h1 {
+    text-align: center; /* Centers the text */
+    margin-bottom: 0px; /* Adds some space between the h1 and the table */
+    font-size: 40px;
+    background-color: #2C5916;
+    color: white;
+}
+
+.table-container h2 {
+    text-align: center; /* Centers the text */
+    margin-bottom: 0px; /* Adds some space between the h2 and the table */
+    font-size: 40px;
+    background-color: #2C5916;
+    color: white;
+}
+
+.table-container h3 {
+    text-align: center; /* Centers the text */
+    margin-bottom: 0px; /* Adds some space between the h3 and the table */
+    font-size: 40px;
+    background-color: #2C5916;
+    color: white;
+}
+
+.table-container table {
+    width: 100%; /* Makes the table take up the full width of the container */
+    border-collapse: collapse; /* For border styling */
+}
+
+th {
+    border-bottom: 1px solid black;;
+    font-size: 20px;
+    padding: 10px;
     text-align: center;
+    text-decoration: underline;
+}
+
+
+td {
+    border-bottom: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
 }
