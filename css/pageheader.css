@@ -4,22 +4,31 @@
     padding: 10px 20px;
 }
 
-.header-content {
+.page-header h2 {
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+.logo {
+    font-size: 50px;
+    text-align: center;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.page-header h1 {
-    font-size: 40px;
-    margin: 0;
-    text-align: center;
+.logo img {
+    width: 50px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px;
+    align-items: center;
 }
 
-.page-header h2 {
-    font-size: 30px;
-    margin: 0;
-    text-align: center;
+@media screen and (max-width: 480px) {
+    .logo {
+        flex-direction: column; /* Stack logo and text vertically on small screens */
+        align-items: flex-start; /* Align content to the left */
+    }
 }

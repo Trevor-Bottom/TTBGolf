@@ -12,7 +12,7 @@
     text-align: center; /* Center the text horizontally */
 }
 
-h1, p {
+.image-section-text h1, p {
     background: rgba(0, 0, 0, 0.5); /* Optional: dark semi-transparent background for better text readability */
     padding: 10px; /* Padding around text */
     border-radius: 8px; /* Optional: rounded corners for text background */
