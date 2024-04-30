@@ -1,5 +1,3 @@
-/* Cookie popup styles */
-
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
 
 #cookie-popup {
@@ -9,9 +7,9 @@
   left: 0;
   background-color: #333;
   color: #fff;
-  padding: 2rem;
+  padding: .5rem; /* Reduced padding */
   text-align: center;
-  font-size: 1.25rem;
+  font-size: .65rem; /* Smaller font size */
   max-width: 100%;
   height: auto;
   z-index: 9999;
@@ -31,8 +29,8 @@
   background-color: #fff;
   color: #333;
   border: none;
-  padding: 5px 10px;
-  font-size: 1.25rem;
+  padding: 2px 5px;
+  font-size: .65rem; /* Smaller font size */
   cursor: pointer;
 }
 
