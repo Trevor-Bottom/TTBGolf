@@ -5,7 +5,7 @@
   position: fixed;
   bottom: 0;
   left: 0;
-  background-color: #333;
+  background-color: #2C5916;
   color: #fff;
   padding: .5rem; /* Reduced padding */
   text-align: center;
@@ -20,14 +20,14 @@
 }
 
 #cookie-popup a:hover {
-  color: lightpink;
+  color: lightgreen;
   text-decoration: underline;
 }
 
 #accept-cookies {
   font-family: "Source Code Pro", monospace;
   background-color: #fff;
-  color: #333;
+  color: #2C5916;
   border: none;
   padding: 2px 5px;
   font-size: .65rem; /* Smaller font size */
@@ -35,6 +35,6 @@
 }
 
 #accept-cookies:hover {
-  background-color: lightpink;
+  background-color: lightgreen;
   transition: 0.4s;
 }
