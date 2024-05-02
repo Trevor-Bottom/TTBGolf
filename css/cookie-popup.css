@@ -10,7 +10,7 @@
   padding: .5rem; /* Reduced padding */
   text-align: center;
   font-size: .65rem; /* Smaller font size */
-  max-width: 100%;
+  width: 100%;
   height: auto;
   z-index: 9999;
 }
