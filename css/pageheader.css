@@ -1,15 +1,9 @@
 .page-header {
     background-color: #2C5916; /* Dark background for the header */
     color: white;
-    padding: 10px 20px;
-}
-
-.page-header h2 {
-    font-size: 30px;
-    margin: 0;
+    padding: 10px 10px;
     text-align: center;
 }
-
 .logo {
     font-size: 60px;
     text-align: center;
@@ -19,9 +13,10 @@
     margin: 0 auto;
 }
 
-.logo img {
-    width: 60px; /* Set the desired width */
+.logo-img {
+    width: 100px; /* Set the desired width */
     height: auto; /* Maintain aspect ratio */
+    margin-top: 20px;
     margin-right: 10px;
     align-items: center;
 }
